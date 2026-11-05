@@ -52,8 +52,32 @@ Sử dụng SqlDataAdapter nạp dữ liệu nhân viên vào DataTable hiển t
 Cho phép người dùng chỉnh sửa trực tiếp số ngày công và giờ OT trên lưới.
 
 Sử dụng SqlCommandBuilder kết hợp adapter.Update(dt) để đồng bộ dữ liệu chấm công về SQL Server trong 1 thao tác.
-![Bán hàng POS](sales_pos_transaction.png)
-![Báo cáo doanh thu](sales_report.png)
-![Chấm công Ngắt kết nối](hrm_disconnected_timekeeping.png)
+## 🖼️ HÌNH ẢNH MINH CHỨNG GIAO DIỆN HỆ THỐNG
 
+---
+
+### 1. Màn hình Bán hàng (POS) & Thanh toán SqlTransaction
+> **Ghi chú:** Giao diện lập hóa đơn bán hàng, tự động tính tiền, trừ số lượng tồn kho và cộng điểm tích lũy khách hàng bằng giao dịch an toàn dữ liệu `SqlTransaction`.
+
+![Màn hình Bán hàng POS](sales_pos_transaction.png)
+
+<br>
+
+---
+
+### 2. Màn hình Báo cáo Doanh thu & Top 5 Bán chạy
+> **Ghi chú:** Thống kê tổng doanh thu chuẩn xác theo từng mốc thời gian và hiển thị danh sách 5 sản phẩm bán chạy nhất hệ thống.
+
+![Màn hình Báo cáo Doanh thu](sales_report.png)
+
+<br>
+
+---
+
+### 3. Màn hình Quản lý Chấm công & Chốt lương (Disconnected Model)
+> **Ghi chú:** Sử dụng mô hình ngắt kết nối `SqlDataAdapter` để tải danh sách nhân viên lên `DataGridView`, cho phép chỉnh sửa ngày công, giờ OT trực tiếp trên lưới và chốt lương hàng tháng.
+
+![Màn hình Chấm công Ngắt kết nối](hrm_disconnected_timekeeping.png)
+
+<br>
 

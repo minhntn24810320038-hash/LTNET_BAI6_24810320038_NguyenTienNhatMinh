@@ -52,3 +52,8 @@ Sử dụng SqlDataAdapter nạp dữ liệu nhân viên vào DataTable hiển t
 Cho phép người dùng chỉnh sửa trực tiếp số ngày công và giờ OT trên lưới.
 
 Sử dụng SqlCommandBuilder kết hợp adapter.Update(dt) để đồng bộ dữ liệu chấm công về SQL Server trong 1 thao tác.
+![Bán hàng POS](sales_pos_transaction.png)
+![Báo cáo doanh thu](sales_report.png)
+![Chấm công Ngắt kết nối](hrm_disconnected_timekeeping.png)
+
+
